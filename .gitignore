@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+build/
+
+# 3DGS Specific
+data/
+output/
+output_test/
+output_v2/
+*.ply
+*.zip
+*.pt
+*.ckp
+
+# System
+.DS_Store
+.vscode/
