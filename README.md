@@ -4,11 +4,11 @@
 ```
 3dgs_slam
 ├── generate_sky_mask.py
-├── output_v2/                  # To put the results
+├── output/                  # To put the results
 ├── scene
 │   └── dataset_readers.py      # Load the dataset
 ├── test_camera_poses.py        # To check if the camera poses match the map
-├── train_v2.py                 # Main trainer
+├── train.py                 # Main trainer
 └── utils
     └── general_utils.py
 ```
