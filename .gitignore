@@ -19,6 +19,12 @@ output_v2/
 # Submission
 test_submission/
 test_pose_list.txt
+copy_gt.py
+itri58_gt_images/
+kaggle_eval.py
+solution.csv
+generate_csv.py
+test_eval.py
 
 # System
 .DS_Store

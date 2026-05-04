@@ -12,6 +12,7 @@
 ├── utils
 │   └── general_utils.py
 ├── test_frame_list.txt      # Test frame list (timestamps)
+├── submission.csv           # Put into your submission file
 ├── generate_test_pose.py    # Estimate the test poses
 └── generate_submission.py   # Render test images
 ```
@@ -56,4 +57,5 @@ pip install transformers timm pillow xformers
 ## Evaluation Steps
 1. Run `generate_test_pose.py` to estimate test poses
 2. Run `generate_submission.py` to render test images
-3. Upload to kaggle
+3. Compress the 30 test images and `submission.csv` into `submission.zip` (or other name you like)
+4. Upload `submission.zip` to kaggle
