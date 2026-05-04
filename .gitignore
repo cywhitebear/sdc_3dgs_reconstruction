@@ -16,6 +16,10 @@ output_v2/
 *.pt
 *.ckp
 
+# Submission
+test_submission/
+test_pose_list.txt
+
 # System
 .DS_Store
 .vscode/

@@ -9,8 +9,11 @@
 │   └── dataset_readers.py      # Load the dataset
 ├── test_camera_poses.py        # To check if the camera poses match the map
 ├── train.py                 # Main trainer
-└── utils
-    └── general_utils.py
+├── utils
+│   └── general_utils.py
+├── test_frame_list.txt      # Test frame list (timestamps)
+├── generate_test_pose.py    # Estimate the test poses
+└── generate_submission.py   # Render test images
 ```
 
 ## Dataset Format
@@ -49,3 +52,8 @@ pip install transformers timm pillow xformers
 1. Run `test_camera_poses.py` and get `visualization.ply`, you will see the camera traj and the map, make sure they match each other
 2. Run `generate_sky_mask.py` to generate sky masks
 3. Run `train_v2.py` to train
+
+## Evaluation Steps
+1. Run `generate_test_pose.py` to estimate test poses
+2. Run `generate_submission.py` to render test images
+3. Upload to kaggle
